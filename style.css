@@ -117,4 +117,42 @@ body {
     margin: 10px;
     background-color: white;
   }
+@media screen and (max-width: 600px) {
+  body {
+    overflow: auto; 
+    background-color: black;
+  }
+
+
+
+  .container {
+    padding: 20px; 
+  }
+
+  h1 {
+    font-size: 2rem; 
+    margin:0;
+  }
+
+  .set {
+    margin: 20px auto; 
+  }
+
+  .drum {
+    font-size: 3rem; 
+    width: 100px; 
+    height: 100px; 
+    margin: 3px; 
+    object-fit:contain;
+    margin-bottom: 0;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    color: #DBEDF3;
+    margin-top: 0;
+    
+  }
+}
+
   
